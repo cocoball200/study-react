@@ -1,13 +1,21 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './App.css';
 
+
 function App() {
+  const name = '리액트';
   return (
-    <Fragment>
-      <h1> 리액트 안녕!</h1>
-      <h2> 잘 작동하니?</h2>
-    </Fragment>
+    <div
+      style={{
+        backgroundColor: 'black',
+        color: 'pink',
+        fontSize: '48px',
+        fontWeight: 'bold',
+        padding: 20 //단위를 생략하면 px 가 디폴트 
+      }}
+    >
+      {name}
+    </div>
   );
 }
-
 export default App;
