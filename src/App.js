@@ -3,7 +3,7 @@ import MyComponent from './MyComponent'
 import './App.css';
 
 const App = () => {
-  return <MyComponent name="MiA" />;// or </MyComponent> 
+  return <MyComponent>MIA </MyComponent>
 }
 
 export default App;
