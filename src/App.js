@@ -3,7 +3,9 @@ import MyComponent from './MyComponent'
 import './App.css';
 
 const App = () => {
-  return <MyComponent>MIA </MyComponent>
+  return (<MyComponent name="Mia " favoritNumber={1004}>
+    MIA </MyComponent>)
 }
 
 export default App;
+
